@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Example content"
+categories: blog
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

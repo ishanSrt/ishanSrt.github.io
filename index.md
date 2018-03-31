@@ -8,10 +8,16 @@
 layout: home
 ---
 
-Cayman Blog Theme is a clean, responsive blogging theme for Jekyll, with social features. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
+All our lives we are made to believe that life is just the way it is and our job is to fit in. We need to play it safe, we need to obey the rules, we need to learn to compromise, we can't chase after our dreams because we are not smart enough, rich enough, talented enough or worthy enough.
+### This is terrible advice.
 
-This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
 
-Have a look at the Github page for more information.
+These are the words of those who themselves have lived an uneventful life.
 
-You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
+And these are the words you will hear the most. Doesn't mean they are true.
+
+You will hear the exact opposite from the ones you admire, whom you look up to or who are at the top of their game.
+
+So, I've made a decision that I am not going to let others control my life and I am going to find my own niche.
+
+Let this blog be an inspiration for you and for me whenever I open and read this. Currently there's nothing much over here.

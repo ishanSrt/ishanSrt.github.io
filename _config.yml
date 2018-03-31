@@ -1,5 +1,7 @@
-title: DO WHAT YOU CAN'T
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and GitHub Pages, with social/SEO features.
+title: Do what you can't
+TITLE: DO WHAT YOU CAN'T
+description: Life begins at the end of your comfort zone. Seek discomfort!
+github.project_tagline: seek discomfort 1
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -19,7 +21,12 @@ image: /thumbnail-jumbo.png
 twitter:
   username: ishan_srt
 github:
-  username: ishanSrt
+  owner_url: https://github.com/ishanSrt
+  owner_name: Ishan Srivastava
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+pages: "/about.md"
 #  site:
 # facebook:
 #   #publisher: 1592372034171500
@@ -27,4 +34,3 @@ github:
 #   app_id: 1798910940422432 # cayman-blog
 #   #authors: lorepirri
 # #  admins:
-
