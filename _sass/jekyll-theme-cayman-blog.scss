@@ -387,16 +387,16 @@ a {
     }
 
     @include large {
-      padding: 0px 6px 0px 6px;
+      padding: 4px 6px 4px 6px;
     }
 
     @include medium {
       //font-size: 1rem;
-      padding: 0px 10px 10px 10px;
+      padding: 4px 10px 10px 10px;
     }
 
     @include small {
-      padding: 0px 10px 10px 10px;
+      padding: 4px 10px 10px 10px;
     }
   }
 
@@ -479,6 +479,19 @@ a {
 
   .tooltip:hover .tooltiptext {
       opacity: 1;
+  }
+
+  @media (max-width: 640px)
+  {
+      .tooltip .tooltiptext
+      {
+          display: none;
+      }
+
+      .my-svg-icon
+      {
+        margin-bottom: 10px;
+      }
   }
 
 }

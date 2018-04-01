@@ -9,15 +9,11 @@ layout: home
 ---
 
 All our lives we are made to believe that life is just the way it is and our job is to fit in. We need to play it safe, we need to obey the rules, we need to learn to compromise, we can't chase after our dreams because we are not smart enough, rich enough, talented enough or worthy enough.
-### This is terrible advice.
+### This is terrible advice!
 
 
-These are the words of those who themselves have lived an uneventful life.
+Because when we do chase after our dreams, when we do feel discomfort and still decide to do it, that is when we experience life at its fullest. It is the things in life that are undetermined that make life interesting and worth living, your life moving so fast, so full, you won't even have time to process it.
 
-And these are the words you will hear the most. Doesn't mean they are true.
+So keep working hard, do what you love and keep on doing things that are out of your comfort zone.
 
-You will hear the exact opposite from the ones you admire, whom you look up to or who are at the top of their game.
-
-So, I've made a decision that I am not going to let others control my life and I am going to find my own niche.
-
-Let this blog be an inspiration for you and for me whenever I open and read this. Currently there's nothing much over here.
+Let this blog be an inspiration for you and for me whenever I read this.
