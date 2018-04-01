@@ -2,6 +2,7 @@
 layout: page
 title: GSoC Archive
 tagline: Whatever I learned in the process and latest updates
+order: 2
 ---
 
 <h2>Pinned</h2>

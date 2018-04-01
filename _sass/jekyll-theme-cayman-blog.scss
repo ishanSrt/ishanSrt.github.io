@@ -380,13 +380,14 @@ a {
 
     a {
     	text-decoration: none;
+      transition: 0s;
     }
     a:hover {
       text-decoration: none;
     }
 
     @include large {
-      padding: 0px 5px 0px 5px;
+      padding: 0px 6px 0px 6px;
     }
 
     @include medium {
@@ -410,12 +411,12 @@ a {
       text-decoration: none;
       color: $section-headings-color; // IE8
       fill: $section-headings-color;
-      transform: scale(1.25);
+      transform: scale(1.50);
       transition: color .5s, transform .2s ease-out
     }
 
     @include large {
-      width: 28px;
+      width: 32px;
       height: 28px;
     }
 
@@ -430,5 +431,54 @@ a {
     }
 
   } // social-icons
+  .tooltip {
+      position: relative;
+      display: inline-block;
+  }
+
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      display:inline-block;
+      white-space:nowrap;
+      top: 125%;
+      left: 50px;
+      margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+      background-color:  $body-text-color;
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 5px 10px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: transparent transparent $body-text-color transparent;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+  }
+
+  .tooltip .tooltiptext::after {
+      content: " ";
+      position: absolute;
+      bottom: 100%;  /* At the top of the tooltip */
+      left: 31px;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent $body-text-color transparent;
+  }
+
+  .tooltip .tooltiptext {
+      opacity: 0;
+      transition: opacity 1s;
+  }
+
+  .tooltip:hover .tooltiptext {
+      opacity: 1;
+  }
 
 }

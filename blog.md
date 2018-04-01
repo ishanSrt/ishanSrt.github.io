@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Projects
-tagline: I have no projects
+title: Blog
+tagline: Just a blog, I ain't got an awesome tagline for everything
+permalink: /categories/
+order: 1
 ---
+
 
 <h2>Pinned</h2>
 
@@ -10,7 +13,7 @@ tagline: I have no projects
 
 <ul class="post-list">
   {% for post in site.posts %}
-  {% if post.categories contains "projects" and post.categories contains "pinned" %}
+  {% if post.categories contains "blog" and post.categories contains "pinned" %}
     <li>
 
       {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
@@ -27,11 +30,11 @@ tagline: I have no projects
   {% endfor %}
 </ul>
 
-<h2>Projects</h2>
+<h2>Daily Blog</h2>
 
 <ul class="post-list">
   {% for post in site.posts %}
-  {% if post.categories contains "projects" %}
+  {% if post.categories contains "blog" %}
     <li>
 
       {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}

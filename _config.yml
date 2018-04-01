@@ -26,11 +26,18 @@ github:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-pages: "/about.md"
+
 #  site:
-# facebook:
-#   #publisher: 1592372034171500
+facebook:
+  username: ishan.srivastava.507
+  url: fb.com/ishan.srivastava.507
 #   #profile_id: 1809805629
 #   app_id: 1798910940422432 # cayman-blog
 #   #authors: lorepirri
 # #  admins:
+header_pages:
+  - blog.md
+  - gsoc_archive.md
+  - projects.md
+  - about.md
+  - contact.md
