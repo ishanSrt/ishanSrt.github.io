@@ -23,6 +23,7 @@ twitter:
 github:
   owner_url: https://github.com/ishanSrt
   owner_name: Ishan Srivastava
+  is_project_page: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -41,3 +42,5 @@ header_pages:
   - projects.md
   - about.md
   - contact.md
+
+repository: ishanSrt/ishanSrt.github.io
