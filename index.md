@@ -16,8 +16,8 @@ When we do chase after our dreams, when we do feel discomfort and still decide t
 
 We experience new things, meet new people, learn stuff which we never knew about, start loving some of it and even decide to do some for the rest of our lives. It is then, that we realize what has been missing from our lives. Every discomfort we feel is an opportunity hidden in disguise and when we decide to go through it, we always come out stronger than before, and with that, we take memories and experiences with us for the rest of our lives.
 
-Remember the people who say to you that you can't, are the ones who themselves have failed at their dreams, which brings me to another one of my ideologies,
-*"you can never fail at achieving your dreams unless you quit trying"*
+Remember the people who say to you that you can't, are the ones who themselves have failed at their dreams, which brings me to another one of my ideologies,<br/>
+*"you can never fail at achieving your dreams unless you quit trying"*<br/>
 You are already living the dream if you are trying hard to pursue it as you are doing what you love, all day.
 
 I believe it is the things in life that are undetermined that make life interesting and worth living, with your life moving so fast, so full, you won't even have time to process it.
