@@ -33,6 +33,7 @@ order: 2
 <ul class="post-list">
   {% for post in site.posts %}
   {% if post.categories contains "gsoc" %}
+  {% unless post.categories contains "pinned" %}
     <li>
 
       {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
@@ -45,6 +46,7 @@ order: 2
       <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
 
     </li>
+  {% endunless %}
   {% endif %}
   {% endfor %}
 </ul>
