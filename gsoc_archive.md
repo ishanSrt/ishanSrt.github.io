@@ -4,7 +4,7 @@ title: GSoC Archive
 tagline: Whatever I learned in the process and latest updates
 order: 2
 ---
-
+{::nomarkdown}
 <h2>Pinned</h2>
 
 <div>&nbsp;</div>
@@ -46,7 +46,8 @@ order: 2
       <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
 
     </li>
-  {% endunless %}
+  {% endunless%}
   {% endif %}
   {% endfor %}
 </ul>
+{:/nomarkdown}

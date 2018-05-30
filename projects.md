@@ -4,7 +4,7 @@ title: Projects
 tagline: I have no projects
 order: 3
 ---
-
+{::nomarkdown}
 <h2>Pinned</h2>
 
 <div>&nbsp;</div>
@@ -48,3 +48,4 @@ order: 3
   {% endif %}
   {% endfor %}
 </ul>
+{:/nomarkdown}
