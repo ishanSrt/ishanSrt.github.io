@@ -190,7 +190,6 @@ a {
 
   h1,
   h2,
-  h3,
   h4,
   h5,
   h6 {
@@ -198,6 +197,13 @@ a {
     margin-bottom: 1rem;
     font-weight: normal;
     color: $section-headings-color;
+  }
+
+  h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #008080;
   }
 
   p {
