@@ -108,9 +108,9 @@ As you can see the decorator just creates an attribute called _filter into the f
 
 # The Dynamics of a Callable Object
 
-We are used to think about functions as special language components that may be "called" or executed. In Python functions are objects, just like everything else, and the feature that allows them to be executed comes from the presence of the __call__() method. Python is polymorphic by design and based on delegation, so (almost) everything that happens in the code relies on some features of the target object.
+We are used to think about functions as special language components that may be "called" or executed. In Python functions are objects, just like everything else, and the feature that allows them to be executed comes from the presence of the `__call__()` method. Python is polymorphic by design and based on delegation, so (almost) everything that happens in the code relies on some features of the target object.
 
-The result of this generalization is that every object that contains the __call__() method may be executed like a function, and gains the name of *callable object*.
+The result of this generalization is that every object that contains the `__call__()` method may be executed like a function, and gains the name of *callable object*.
 
 The `StringProcessor` class shall thus contain this method and perform there the string processing with all the contained filters. The code is
 
