@@ -1,0 +1,25 @@
+{
+  "name": "ishansrt.github.io",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/lorepirri/cayman-blog.svg?branch=master)](https://travis-ci.org/lorepirri/cayman-blog) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman-blog.svg)](https://badge.fury.io/rb/jekyll-theme-cayman-blog)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishanSrt/ishanSrt.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishanSrt/ishanSrt.github.io/issues"
+  },
+  "homepage": "https://github.com/ishanSrt/ishanSrt.github.io#readme",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt-jimp": "0.0.5"
+  }
+}
