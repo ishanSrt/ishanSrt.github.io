@@ -19,6 +19,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
     "png-to-jpeg": "^1.0.1",
     "wl": "^0.2.1"
   },

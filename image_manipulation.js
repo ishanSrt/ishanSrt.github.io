@@ -36,7 +36,7 @@ for (i in files)
 			var w = image.bitmap.width; // the width of the image
 			var h = image.bitmap.height; // the height of the image
 			console.log(w,h)
-		    return image.quality(20)
+		    return image.quality(40)
 		    			.scale(0.01)
 		    			.resize(w, h)
 		    			.blur(30)
@@ -55,7 +55,7 @@ for (i in files)
 	    	var w = image.bitmap.width; // the width of the image
 	    	var h = image.bitmap.height; // the height of the image
 	    	console.log(w,h)
-	        return image.quality(20)
+	        return image.quality(40)
 	        			.blur(30)
 	        
 	              .write(target_file);               
