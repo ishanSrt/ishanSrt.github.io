@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/ishanSrt/ishanSrt.github.io#readme",
   "dependencies": {
-    "grunt": "^1.0.3"
+    "fs": "0.0.1-security",
+    "grunt": "^1.0.3",
+    "png-to-jpeg": "^1.0.1",
+    "wl": "^0.2.1"
   },
   "devDependencies": {
-    "grunt-jimp": "0.0.5"
+    "grunt-jimp": "0.0.5",
+    "grunt-run": "^0.8.1"
   }
 }
