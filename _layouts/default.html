@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   <head>
 
     <!-- Non social metatags -->
@@ -231,14 +230,7 @@
         ga('create', '{{ site.google_analytics }}', 'auto');
         ga('send', 'pageview');
       </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.9.0/lazyload.min.js"></script>
-      <script>
-        (function () {
-          var ll = new LazyLoad({
-            threshold: 0
-          });
-        }());
-      </script>
     {% endif %}
+    {% include lazyload.html %}
   </body>
 </html>
