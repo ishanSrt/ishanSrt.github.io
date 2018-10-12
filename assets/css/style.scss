@@ -14,3 +14,19 @@
 	z-index: 9;
 	width: 100%;
 }
+
+textarea:focus,
+input[type="email"]:focus,
+input[type="text"]:focus
+{ 
+	border: 1px solid #00b38f !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3pt #00b38f;
+}
+
+button:focus,
+{
+	border: 1px solid #17a589 !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3pt #17a589;
+}
